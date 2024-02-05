@@ -14,6 +14,7 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
+        {/*<p><img src="static/tmIcon.png"></img> <i class="fa-brands fa-telegram"></i> Подписывайтесь на <a href="https://t.me/organaized_anton">телеграм!</a></p>*/}
         <p>
           {i18n(cfg.locale).components.footer.createdWith}{" "}
           <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
