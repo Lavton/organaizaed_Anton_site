@@ -10,7 +10,7 @@ const config: QuartzConfig = {
       provider: "null",
     },
     locale: "ru-RU",
-    baseUrl: "organaized_anton.ru",
+    baseUrl: "organizedanton.ru",
     ignorePatterns: ["private", "template", ".obsidian"],
     defaultDateType: "created",
     theme: {
