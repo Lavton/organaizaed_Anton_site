@@ -11,7 +11,7 @@ const config: QuartzConfig = {
     },
     locale: "ru-RU",
     baseUrl: "organizedanton.ru",
-    ignorePatterns: ["private", "template", ".obsidian"],
+    ignorePatterns: ["_private", "template", ".obsidian", "Excalidraw"],
     defaultDateType: "created",
     theme: {
       typography: {
