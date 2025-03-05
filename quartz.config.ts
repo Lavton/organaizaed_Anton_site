@@ -9,6 +9,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "null",
     },
+	generateSocialImages: true,
     locale: "ru-RU",
     baseUrl: "organizedanton.ru",
     ignorePatterns: ["_private", "template", ".obsidian", "Excalidraw"],
