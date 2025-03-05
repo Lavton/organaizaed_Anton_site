@@ -148,7 +148,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
   const useSmallerFont = title.length > fontBreakPoint
 
   // Setup to access image
-  const iconPath = `https://${cfg.baseUrl}/static/icon.png`
+  const iconPath = `https://${cfg.baseUrl}/static/icon.jpg`
   return (
     <div
       style={{
@@ -184,7 +184,7 @@ export const defaultImage: SocialImageOptions["imageStructure"] = (
             fontFamily: fonts[0].name,
           }}
         >
-          {title}
+          {title.replace(/--/g, "—")}
         </p>
       </div>
       <p
